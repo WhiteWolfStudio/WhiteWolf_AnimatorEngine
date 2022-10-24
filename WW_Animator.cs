@@ -11,13 +11,13 @@ namespace WhiteWolf.Animator {
 
         /*––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
         
-        [SerializeField] private UnityEngine.Animator _animator;
+        private UnityEngine.Animator _animator;
 
         /*––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
     
         private void Start(){
-            
-            // _animator = this.gameObject.GetComponent<UnityEngine.Animator>();
+        
+            _animator = this.gameObject.GetComponent<UnityEngine.Animator>();
         
         }
 
